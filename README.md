@@ -1,6 +1,6 @@
 # flutter_basic_animation
 
-Exampled  of Flutter Animation
+Example  of Flutter Animation
 
 ## Getting Started
 
