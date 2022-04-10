@@ -55,9 +55,12 @@ class _TripListState extends State<TripList> {
       ),
       leading: ClipRRect(
         borderRadius: BorderRadius.circular(8.0),
-        child: Image.asset(
-          'assets/images/${trip.img}',
-          height: 50.0,
+        child: Hero(
+          tag: 'location-img-${trip.img}',
+          child: Image.asset(
+            'assets/images/${trip.img}',
+            height: 50.0,
+          ),
         ),
       ),
       trailing: Text('\$${trip.price}'),
