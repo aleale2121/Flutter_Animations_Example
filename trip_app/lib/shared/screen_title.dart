@@ -24,6 +24,7 @@ class ScreenTitle extends StatelessWidget {
         begin: 0,
         end: 1.0,
       ),
+      curve: Curves.easeIn,
       child: Text(
         text,
         style: const TextStyle(
