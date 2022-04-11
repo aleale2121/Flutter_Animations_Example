@@ -27,7 +27,7 @@ class _HomeState extends State<Home> {
             SizedBox(height: 30),
             SizedBox(
               height: 160,
-              child: ScreenTitle(text: 'Ninja Trips'),
+              child: ScreenTitle(text: 'Trips'),
             ),
             Flexible(
               child: TripList(),
